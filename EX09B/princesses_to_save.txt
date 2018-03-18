@@ -1,0 +1,306 @@
+NAME                STATUS              PLACE               DETAILS
+====================================================================
+
+Carlynne            FIGHTS FOR LIFE     Dungeon             None
+Minnie              FIGHTS FOR LIFE     Dungeon             Will rule the kingdom
+Milena              FIGHTS FOR LIFE     Dungeon             Afraid of spiders
+Maridel             FIGHTS FOR LIFE     Dungeon             Can cook
+Beatriz             FIGHTS FOR LIFE     Dungeon             Programmer
+Goldi               FIGHTS FOR LIFE     Dungeon             Sassy
+Ceciley             FIGHTS FOR LIFE     Dungeon             Pretty
+Trudey              FIGHTS FOR LIFE     Dungeon             Afraid of spiders
+Ranique             FIGHTS FOR LIFE     Dungeon             Will rule the kingdom
+Waly                FIGHTS FOR LIFE     Dungeon             Will rule the kingdom
+Ciel                FIGHTS FOR LIFE     Dungeon             Programmer
+Krystalle           FIGHTS FOR LIFE     Dungeon             Pretty
+Odelinda            FIGHTS FOR LIFE     Dungeon             Pretty
+Gertrud             FIGHTS FOR LIFE     Dungeon             Will rule the kingdom
+Josselyn            FIGHTS FOR LIFE     Dungeon             Afraid of spiders
+Dolley              FIGHTS FOR LIFE     Dungeon             Will rule the kingdom
+Leyla               FIGHTS FOR LIFE     Abandoned Prison    Likes books
+Tommie              FIGHTS FOR LIFE     Abandoned Prison    Likes books
+Karilynn            FIGHTS FOR LIFE     Abandoned Prison    Can cook
+Rene                FIGHTS FOR LIFE     Abandoned Prison    Programmer
+Rosmunda            FIGHTS FOR LIFE     Abandoned Prison    Sassy
+Ameline             FIGHTS FOR LIFE     Abandoned Prison    Likes books
+Jeri                FIGHTS FOR LIFE     Abandoned Prison    Will rule the kingdom
+Albina              FIGHTS FOR LIFE     Abandoned Prison    Programmer
+Daloris             FIGHTS FOR LIFE     Abandoned Prison    Will rule the kingdom
+Missie              FIGHTS FOR LIFE     Abandoned Prison    Can cook
+Kirsti              FIGHTS FOR LIFE     Abandoned Prison    None
+Reta                FIGHTS FOR LIFE     Abandoned Prison    Programmer
+Arline              FIGHTS FOR LIFE     Abandoned Prison    Will rule the kingdom
+Felisha             FIGHTS FOR LIFE     Abandoned Prison    Likes books
+Chastity            FIGHTS FOR LIFE     Dark Cave           Pretty
+Myrtle              FIGHTS FOR LIFE     Dark Cave           Sassy
+Miquela             FIGHTS FOR LIFE     Dark Cave           Programmer
+Loria               FIGHTS FOR LIFE     Dark Cave           Likes books
+Abigale             FIGHTS FOR LIFE     Dark Cave           Pretty
+Allix               FIGHTS FOR LIFE     Dark Cave           Will rule the kingdom
+Winonah             FIGHTS FOR LIFE     Dark Cave           Likes books
+Tony                FIGHTS FOR LIFE     Dark Cave           None
+Jobye               FIGHTS FOR LIFE     Dark Cave           None
+Nert                FIGHTS FOR LIFE     Dark Cave           Will rule the kingdom
+Regine              FIGHTS FOR LIFE     Dark Cave           None
+Lillian             FIGHTS FOR LIFE     Misty Swamp         Afraid of spiders
+Latashia            FIGHTS FOR LIFE     Misty Swamp         None
+Merci               FIGHTS FOR LIFE     Misty Swamp         Pretty
+Sherill             FIGHTS FOR LIFE     Misty Swamp         Can cook
+Ellette             FIGHTS FOR LIFE     Misty Swamp         Pretty
+Wynn                FIGHTS FOR LIFE     Misty Swamp         Sassy
+Lanae               FIGHTS FOR LIFE     Misty Swamp         Programmer
+Fawne               FIGHTS FOR LIFE     Misty Swamp         Programmer
+Hally               FIGHTS FOR LIFE     Misty Swamp         Can cook
+Wendi               FIGHTS FOR LIFE     Misty Swamp         Pretty
+Constancy           FIGHTS FOR LIFE     Misty Swamp         Pretty
+Jerrylee            FIGHTS FOR LIFE     High Mountain       Can cook
+Annalise            FIGHTS FOR LIFE     High Mountain       Sassy
+Sissy               FIGHTS FOR LIFE     High Mountain       Sassy
+Lisha               FIGHTS FOR LIFE     High Mountain       Sassy
+Blakelee            FIGHTS FOR LIFE     High Mountain       Pretty
+Saree               FIGHTS FOR LIFE     High Mountain       Afraid of spiders
+Evangelina          FIGHTS FOR LIFE     High Mountain       Likes books
+Helen-elizabeth     FIGHTS FOR LIFE     High Mountain       Sassy
+Amelina             FIGHTS FOR LIFE     High Mountain       Will rule the kingdom
+Alysia              FIGHTS FOR LIFE     Ancient Ruins       Afraid of spiders
+Nicol               FIGHTS FOR LIFE     Ancient Ruins       Afraid of spiders
+Isa                 FIGHTS FOR LIFE     Ancient Ruins       Programmer
+Margi               FIGHTS FOR LIFE     Ancient Ruins       Likes books
+Trude               FIGHTS FOR LIFE     Ancient Ruins       Programmer
+Hailee              FIGHTS FOR LIFE     Ancient Ruins       Will rule the kingdom
+Clarabelle          FIGHTS FOR LIFE     Ancient Ruins       Likes books
+Tabbitha            FIGHTS FOR LIFE     Ancient Ruins       Sassy
+Bell                FIGHTS FOR LIFE     Ancient Ruins       None
+Cherrita            FIGHTS FOR LIFE     Ancient Ruins       Sassy
+Kariotta            FIGHTS FOR LIFE     Old Shack           Will rule the kingdom
+Catlee              FIGHTS FOR LIFE     Old Shack           Programmer
+Annelise            INJURED             Dungeon             Programmer
+Kerrill             INJURED             Dungeon             Will rule the kingdom
+Floris              INJURED             Dungeon             None
+Betta               INJURED             Dungeon             Will rule the kingdom
+Melissa             INJURED             Dungeon             Afraid of spiders
+Natasha             INJURED             Dungeon             Likes books
+Farah               INJURED             Abandoned Prison    Sassy
+Jada                INJURED             Abandoned Prison    Pretty
+Myrlene             INJURED             Abandoned Prison    Afraid of spiders
+Malvina             INJURED             Abandoned Prison    Programmer
+Lotti               INJURED             Abandoned Prison    Pretty
+Nadine              INJURED             Abandoned Prison    Pretty
+Fernandina          INJURED             Abandoned Prison    None
+Noemi               INJURED             Abandoned Prison    Afraid of spiders
+Sadye               INJURED             Abandoned Prison    None
+Carlota             INJURED             Abandoned Prison    Likes books
+Elna                INJURED             Abandoned Prison    Sassy
+Elberta             INJURED             Ancient Ruins       Will rule the kingdom
+Clare               INJURED             Ancient Ruins       Afraid of spiders
+Johanna             INJURED             Ancient Ruins       Afraid of spiders
+Dorthy              INJURED             Ancient Ruins       Sassy
+Giacinta            INJURED             Ancient Ruins       Programmer
+Erika               INJURED             Ancient Ruins       Likes books
+Hettie              INJURED             Ancient Ruins       Afraid of spiders
+Ermina              INJURED             Ancient Ruins       Afraid of spiders
+Maddi               INJURED             Ancient Ruins       Sassy
+Tate                INJURED             Ancient Ruins       Can cook
+Kendra              INJURED             Ancient Ruins       Can cook
+Dyane               INJURED             Ancient Ruins       Will rule the kingdom
+Gillan              INJURED             Ancient Ruins       Likes books
+Jeanette            INJURED             High Mountain       Afraid of spiders
+Danila              INJURED             High Mountain       Afraid of spiders
+Nedi                INJURED             High Mountain       None
+Judith              INJURED             Old Shack           Likes books
+Marielle            INJURED             Old Shack           Likes books
+Raye                INJURED             Old Shack           Sassy
+Anallise            INJURED             Old Shack           Programmer
+Julienne            INJURED             Old Shack           Will rule the kingdom
+Farah               INJURED             Old Shack           Can cook
+Aurora              INJURED             Old Shack           None
+Natalee             INJURED             Old Shack           Likes books
+Myrta               INJURED             Old Shack           Likes books
+Charita             INJURED             Old Shack           Afraid of spiders
+Vivien              INJURED             Old Shack           Can cook
+Lauryn              INJURED             Old Shack           Likes books
+Angil               INJURED             Dark Cave           Can cook
+Meggy               INJURED             Dark Cave           None
+Chastity            INJURED             Dark Cave           Afraid of spiders
+Wilie               INJURED             Dark Cave           Programmer
+Viole               INJURED             Dark Cave           Programmer
+Charin              INJURED             Dark Cave           Programmer
+Dolly               INJURED             Dark Cave           Will rule the kingdom
+Justinn             INJURED             Dark Cave           Sassy
+Jenelle             INJURED             Dark Cave           Sassy
+Nichole             INJURED             Misty Swamp         Will rule the kingdom
+Drusy               INJURED             Misty Swamp         None
+Jade                INJURED             Misty Swamp         Likes books
+Blanche             INJURED             Misty Swamp         Likes books
+Phil                INJURED             Misty Swamp         Will rule the kingdom
+Aleta               INJURED             Misty Swamp         Afraid of spiders
+Clarabelle          INJURED             Misty Swamp         Sassy
+Con                 INJURED             Misty Swamp         Pretty
+Jeanette            INJURED             Misty Swamp         Likes books
+Yelena              INJURED             Misty Swamp         Pretty
+Queenie             INJURED             Misty Swamp         Programmer
+Malory              IN PANIC            Abandoned Prison    Pretty
+Annalise            IN PANIC            Abandoned Prison    Sassy
+Jeanne              IN PANIC            Abandoned Prison    Likes books
+Elane               IN PANIC            Abandoned Prison    Sassy
+Dorice              IN PANIC            Abandoned Prison    Will rule the kingdom
+Dorian              IN PANIC            Abandoned Prison    Pretty
+Bebe                IN PANIC            Abandoned Prison    Will rule the kingdom
+Corri               IN PANIC            Abandoned Prison    Will rule the kingdom
+Ella                IN PANIC            Abandoned Prison    Pretty
+Gretal              IN PANIC            Abandoned Prison    None
+Johannah            IN PANIC            Dark Cave           Can cook
+Carmita             IN PANIC            Dark Cave           Likes books
+Valina              IN PANIC            Dark Cave           Sassy
+Sigrid              IN PANIC            Dark Cave           Can cook
+Zahara              IN PANIC            Dark Cave           Afraid of spiders
+Ursuline            IN PANIC            Dark Cave           Sassy
+Lynsey              IN PANIC            Dark Cave           Pretty
+Shannen             IN PANIC            Dark Cave           Programmer
+Correy              IN PANIC            Dark Cave           Pretty
+Rebbecca            IN PANIC            Dark Cave           Afraid of spiders
+Paolina             IN PANIC            Dark Cave           None
+Emelina             IN PANIC            Dark Cave           Afraid of spiders
+Mareah              IN PANIC            Dark Cave           Will rule the kingdom
+Orly                IN PANIC            Dark Cave           None
+Cathie              IN PANIC            Dungeon             Will rule the kingdom
+Ema                 IN PANIC            Dungeon             Pretty
+Edy                 IN PANIC            Dungeon             Pretty
+Modestia            IN PANIC            Dungeon             Likes books
+Krissie             IN PANIC            Dungeon             Can cook
+Elisabet            IN PANIC            Dungeon             Sassy
+Corette             IN PANIC            Dungeon             Will rule the kingdom
+Lorenza             IN PANIC            Dungeon             Will rule the kingdom
+Maureen             IN PANIC            Dungeon             Will rule the kingdom
+Rey                 IN PANIC            Dungeon             None
+Katya               IN PANIC            Dungeon             Can cook
+Ginelle             IN PANIC            Dungeon             Pretty
+Lilias              IN PANIC            Dungeon             Afraid of spiders
+Lindsay             IN PANIC            Dungeon             Can cook
+Lillis              IN PANIC            Dungeon             Will rule the kingdom
+Shay                IN PANIC            Dungeon             Can cook
+Leonanie            IN PANIC            Ancient Ruins       None
+Deeann              IN PANIC            Ancient Ruins       Will rule the kingdom
+Aigneis             IN PANIC            Ancient Ruins       Afraid of spiders
+Eleen               IN PANIC            Ancient Ruins       Can cook
+Tedi                IN PANIC            Ancient Ruins       Afraid of spiders
+Selia               IN PANIC            Ancient Ruins       Likes books
+Joelie              IN PANIC            Ancient Ruins       Pretty
+Glynis              IN PANIC            Ancient Ruins       Sassy
+Adiana              IN PANIC            Ancient Ruins       Pretty
+Dorothee            IN PANIC            Ancient Ruins       Sassy
+Loleta              IN PANIC            Ancient Ruins       Likes books
+Ardisj              IN PANIC            Ancient Ruins       None
+Arabelle            IN PANIC            Ancient Ruins       Will rule the kingdom
+Reeva               IN PANIC            Ancient Ruins       Programmer
+Inger               IN PANIC            Ancient Ruins       None
+Calli               IN PANIC            High Mountain       Programmer
+Fey                 IN PANIC            High Mountain       Afraid of spiders
+Amber               IN PANIC            High Mountain       Sassy
+Charlena            IN PANIC            High Mountain       None
+Kay                 IN PANIC            High Mountain       Programmer
+Rhody               IN PANIC            High Mountain       Sassy
+Wendye              IN PANIC            High Mountain       Will rule the kingdom
+Gigi                IN PANIC            High Mountain       Pretty
+Fernandina          IN PANIC            High Mountain       Will rule the kingdom
+Siobhan             IN PANIC            High Mountain       Sassy
+Marie-jeanne        IN PANIC            High Mountain       Can cook
+Waly                IN PANIC            High Mountain       Will rule the kingdom
+Gwennie             IN PANIC            High Mountain       Sassy
+Fernandina          IN PANIC            High Mountain       Will rule the kingdom
+Lacy                IN PANIC            High Mountain       Can cook
+Caty                IN PANIC            Old Shack           None
+Joyous              IN PANIC            Old Shack           Pretty
+Ansley              IN PANIC            Old Shack           Can cook
+Rhianon             IN PANIC            Old Shack           Afraid of spiders
+Meg                 IN PANIC            Old Shack           Pretty
+Olenka              IN PANIC            Old Shack           Afraid of spiders
+Joy                 IN PANIC            Old Shack           Sassy
+Ulrica              IN PANIC            Old Shack           Programmer
+Selinda             IN PANIC            Old Shack           Likes books
+Corie               IN PANIC            Old Shack           Likes books
+Drusy               IN PANIC            Old Shack           Sassy
+Umeko               IN PANIC            Old Shack           Can cook
+Alexine             IN PANIC            Old Shack           Pretty
+Donelle             IN PANIC            Old Shack           Afraid of spiders
+Rhoda               IN PANIC            Old Shack           Will rule the kingdom
+Leandra             IN PANIC            Old Shack           None
+Kelila              IN PANIC            Misty Swamp         None
+Robbie              IN PANIC            Misty Swamp         Sassy
+Tabbatha            IN PANIC            Misty Swamp         Afraid of spiders
+Kelly               IN PANIC            Misty Swamp         Will rule the kingdom
+Elbertine           IN PANIC            Misty Swamp         Will rule the kingdom
+Patrica             IN PANIC            Misty Swamp         Will rule the kingdom
+Feodora             IN PANIC            Misty Swamp         Programmer
+Lorna               IN PANIC            Misty Swamp         Pretty
+Nichol              BORED               Dungeon             Can cook
+Esmaria             BORED               Dungeon             Programmer
+Phaidra             BORED               Dungeon             Pretty
+Quinn               BORED               Dungeon             Sassy
+Jilly               BORED               Dungeon             Sassy
+Josee               BORED               Dungeon             None
+Maxine              BORED               Dungeon             None
+Lark                BORED               Dungeon             Will rule the kingdom
+Caron               BORED               Old Shack           Likes books
+Christalle          BORED               Old Shack           Can cook
+Florette            BORED               Old Shack           None
+Aloisia             BORED               Old Shack           Pretty
+Loree               BORED               Old Shack           Will rule the kingdom
+Aaren               BORED               Old Shack           Programmer
+Evvy                BORED               Old Shack           Afraid of spiders
+Brett               BORED               Old Shack           Pretty
+Arluene             BORED               Old Shack           Likes books
+Sharity             BORED               Old Shack           Can cook
+Lynnelle            BORED               Old Shack           Pretty
+Vivie               BORED               Old Shack           Pretty
+Elfie               BORED               Dark Cave           Will rule the kingdom
+Ophelie             BORED               Dark Cave           Will rule the kingdom
+Octavia             BORED               Dark Cave           Likes books
+Martita             BORED               Dark Cave           None
+Harli               BORED               Dark Cave           Can cook
+Erika               BORED               Dark Cave           Pretty
+Oralee              BORED               Dark Cave           Likes books
+Moyna               BORED               Dark Cave           Programmer
+Janessa             BORED               Dark Cave           None
+Atlanta             BORED               Abandoned Prison    None
+Guenna              BORED               Abandoned Prison    Will rule the kingdom
+Tricia              BORED               Abandoned Prison    Pretty
+Odilia              BORED               Abandoned Prison    Pretty
+Marabel             BORED               Abandoned Prison    Sassy
+Noelle              BORED               Abandoned Prison    Afraid of spiders
+Fran                BORED               Abandoned Prison    Afraid of spiders
+Cherie              BORED               Abandoned Prison    Can cook
+Clarisse            BORED               Abandoned Prison    Programmer
+Jandy               BORED               Abandoned Prison    None
+Kathryne            BORED               Abandoned Prison    Can cook
+Kate                BORED               Ancient Ruins       Afraid of spiders
+Fancie              BORED               Ancient Ruins       Sassy
+Rosanna             BORED               Ancient Ruins       Pretty
+Peggi               BORED               Ancient Ruins       Likes books
+Bernetta            BORED               Ancient Ruins       Can cook
+Marie-jeanne        BORED               Ancient Ruins       Programmer
+Jo                  BORED               Ancient Ruins       Sassy
+Olivette            BORED               Ancient Ruins       None
+Cordi               BORED               Ancient Ruins       Will rule the kingdom
+Shari               BORED               Ancient Ruins       Likes books
+Kattie              BORED               Misty Swamp         Will rule the kingdom
+Vinita              BORED               Misty Swamp         Afraid of spiders
+Melli               BORED               Misty Swamp         Afraid of spiders
+Blythe              BORED               Misty Swamp         Afraid of spiders
+Carree              BORED               Misty Swamp         Programmer
+Bev                 BORED               Misty Swamp         Sassy
+Lou                 BORED               Misty Swamp         Afraid of spiders
+Kirby               BORED               Misty Swamp         Afraid of spiders
+Angel               BORED               Misty Swamp         Afraid of spiders
+Ki                  BORED               Misty Swamp         Afraid of spiders
+Miguelita           BORED               High Mountain       None
+Hanny               BORED               High Mountain       Sassy
+Giorgia             BORED               High Mountain       Likes books
+Prissie             BORED               High Mountain       Afraid of spiders
+Aila                BORED               High Mountain       None
+Emmeline            BORED               High Mountain       Pretty
+Nikoletta           BORED               High Mountain       Sassy
+Adrianna            BORED               High Mountain       Programmer
+Sabina              BORED               High Mountain       None
+Britte              BORED               High Mountain       None
+Bellina             BORED               High Mountain       Likes books
