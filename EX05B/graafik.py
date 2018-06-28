@@ -1,10 +1,7 @@
-"""Super graaf."""
+"""Draw graph of savings each month."""
 
 
 import turtle
-
-
-data_list = [100, 50, 150, 300, 200, 100, 50, 150, 300, 200.9, 200]
 
 
 def draw_graph(pencil: turtle.Turtle, posx, posy, data_list):
@@ -37,6 +34,7 @@ def draw_legend(pencil: turtle.Turtle, data_list):
     """
     month_names = ["Jaanuar", "Veebruar", "Märts", "Aprill", "Mai", "Juuni", "Juuli", "August", "September", "Oktoober", "November", "Detsember"]
     turtle.up()
+    # Draw legend box
     turtle.forward(30)
     turtle.left(90)
     turtle.down()
@@ -54,19 +52,21 @@ def draw_legend(pencil: turtle.Turtle, data_list):
     turtle.forward(20)
     turtle.left(90)
     indeks = 0
+    # Write months names and the according sum saved for that month
     for i in data_list:
         turtle.down()
         turtle.write("{}:   {} €".format(month_names[indeks], i))
         indeks += 1
         turtle.pu()
         turtle.back(20)
+    # if enough money gathered, print the total and confirmation
     if len(data_list) == 12 and sum(data_list) >= 470:
         turtle.down()
-        turtle.write("Kokku:   {} €".format(sum(data_list)))
+        turtle.write("Total:   {} €".format(sum(data_list)))
         turtle.pu()
         turtle.back(20)
         turtle.pd()
-        turtle.write("Saad minna kontserdile")
+        turtle.write("You can go to the concert!")
     turtle.pu()
     turtle.left(180)
     turtle.sety(-140)
@@ -106,7 +106,7 @@ def draw_bars(pencil: turtle.Turtle, data_list):
 
 def main():
     """Set up the turtle window and start the drawing process."""
-    data_list = [100, 50, 150, 300, 200, 100, 50, 150, 300, 200.9]
+    data_list = [100, 50, 150, 300, 200, 100, 50, 150, 300, 200.9, 200, 300]
     turtle.setup(width=800, height=400)
     draw_graph(turtle, -350, -150, data_list)
 

@@ -28,7 +28,7 @@ def sort_list(string_list):
     :return: Sorted list of Strings.
     """
     from_small_to_big = []
-    if string_list <= []:
+    if string_list == []:
         return []
     if len(string_list) == 1:
         return string_list

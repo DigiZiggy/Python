@@ -14,9 +14,9 @@ import pytest
                          )
 def test_repeat(letter, length):
     """
-    Return an expression that subtracts b from a.
+    Test that repeat() returns empty string if input length less than 1 or input letter empty.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: letter = "" , length = 5 outputs "".
     """
     assert calculator.repeat(letter, length) == ""
 
@@ -33,79 +33,79 @@ def test_repeat(letter, length):
                          )
 def test_convert_name(name):
     """
-    Return an expression that subtracts b from a.
+    Test that convert_name returns 'ERROR' if length of name less than 3 letters.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: name = "ab" gives "ERROR".
     """
     assert calculator.convert_name(name) == "ERROR"
 
 
 def test_addition_negative_a():
     """
-    Return an expression that subtracts b from a.
+    Test that addition a + b works with a being negative.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = -2, b = 1 -> "-2 + 1 = -1"
     """
     assert calculator.addition(-2, 1) == "-2 + 1 = -1"
 
 
 def test_addition_negative_b():
     """
-    Return an expression that subtracts b from a.
+    Test that addition a + b works with b being negative.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = 3, b = -1 -> "3 + (-1) = 2"
     """
     assert calculator.addition(3, -1) == "3 + -1 = 2"
 
 
 def test_addition_negative_numbers():
     """
-    Return an expression that subtracts b from a.
+    Test that addition a + b works with both being negative.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = -2, b = -1 -> "-2 + (-1) = -3"
     """
     assert calculator.addition(-2, -1) == "-2 + -1 = -3"
 
 
 def test_addition_positive_numbers():
     """
-    Return an expression that subtracts b from a.
+    Test that addition a + b works with both being positive.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = 3, b = 1 -> "3 + 1 = 4"
     """
     assert calculator.addition(3, 1) == "3 + 1 = 4"
 
 
 def test_subtraction_negative_a():
     """
-    Return an expression that subtracts b from a.
+    Test that subtraction a - b works with a being negative.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = -2, b = 1 -> "-2 - 1 = -3"
     """
     assert calculator.subtraction(-2, 1) == "-2 - 1 = -3"
 
 
 def test_subtraction_negative_b():
     """
-    Return an expression that subtracts b from a.
+    Test that subtraction a - b works with b being negative.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = 3, b = -1 -> "3 - (-1) = 4"
     """
     assert calculator.subtraction(3, -1) == "3 - -1 = 4"
 
 
 def test_subtraction_negative_numbers():
     """
-    Assert an expression that subtracts b from a.
+    Test that subtraction a - b works with both being negative.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: a = -2, b = -1 -> "-2 - (-1) = -1"
     """
     assert calculator.subtraction(-2, -1) == "-2 - -1 = -1"
 
 
 def test_subtraction_positive_numbers():
     """
-    Assert that an expression that subtracts b from a.
+    Test that subtraction a - b works with both being positive.
 
     Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
@@ -114,9 +114,8 @@ def test_subtraction_positive_numbers():
 
 def test_display_operation_subtract():
     """
-    Return an expression that subtracts b from a.
+    Test that subtraction is displayed when operation is 'substraction'.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
     if calculator.display(3, 1, operation="subtraction"):
         assert calculator.subtraction
@@ -124,9 +123,8 @@ def test_display_operation_subtract():
 
 def test_display_operation_add():
     """
-    Return an expression that subtracts b from a.
+    Test that addition is displayed when operation is 'addition'.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
     if calculator.display(3, 1, operation="addition"):
         assert calculator.addition(3, 1)
@@ -134,125 +132,126 @@ def test_display_operation_add():
 
 def test_convert_name1():
     """
-    Return an expression that subtracts b from a.
+    Test that convert_name() converts string as supposed to.
+    [first three letters in uppercase]-[length of string][last two letters of string in lowercase]
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: "abc"  # -> "ABC-3bc"
     """
     assert calculator.convert_name("Burroughs") == "BUR-9hs"
 
 
 def test_convert_name2():
     """
-    Return an expression that subtracts b from a.
+    Test that convert_name() converts string as supposed to, even with numbers in it.
+    [first three letters in uppercase]-[length of string][last two letters of string in lowercase]
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: "abc"  # -> "ABC-3bc"
     """
     assert calculator.convert_name("uT999AIUHjbhh76235g3dhj") == "UT9-23hj"
 
 
-def test_convert_name3():
+def test_convert_name_long_string():
     """
-    Return an expression that subtracts b from a.
+    Test that convert_name() converts string as supposed to even when string extremely long.
+    [first three letters in uppercase]-[length of string][last two letters of string in lowercase]
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: "abc"  # -> "ABC-3bc"
     """
     assert calculator.convert_name("90uT999AIUHjbhh76235g3dhhggfTTFSVGHBJBHSBHJ9897879885444j") == "90U-574j"
 
 
-def test_convert_name4():
+def test_convert_name_short_string():
     """
-    Return an expression that subtracts b from a.
+    Test that convert_name() converts string as supposed to even when string extremely short.
+    [first three letters in uppercase]-[length of string][last two letters of string in lowercase]
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: "abc"  # -> "ABC-3bc"
     """
     assert calculator.convert_name("7v6") == "7V6-3v6"
 
 
-def test_convert_name_2():
+def test_convert_name_capital_ending():
     """
-    Return an expression that subtracts b from a.
+    Test that convert_name() converts string as supposed to even when string ends with capital letters.
+    [first three letters in uppercase]-[length of string][last two letters of string in lowercase]
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: "abc"  # -> "ABC-3bc"
     """
     assert calculator.convert_name("BurrougTS") == "BUR-9ts"
 
 
-def test_line():
+def test_line_zero_length():
     """
-    Return an expression that subtracts b from a.
+    Test that line() returns an empty string if inserted line width is 0.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: width = 0  => ""
     """
     assert calculator.line(0) == ""
 
 
-def test_line_2():
+def test_line_one_length():
     """
-    Return an expression that subtracts b from a.
+    Test that line() returns just one line if inserted line width is 1.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: width = 1  => "-"
     """
     assert calculator.line(1) == "-"
 
 
-def test_line_3():
+def test_line_decorated():
     """
-    Return an expression that subtracts b from a.
+    Test that line() returns a line of given width with ">" at the start and "<" in the end, if decorated is True.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: width = 6  => ">----<"
     """
     assert calculator.line(6, decorated=True) == ">----<"
 
 
-def test_line_4():
+def test_line_not_decorated():
     """
-    Return an expression that subtracts b from a.
+    Test that line() returns a line of given width, without end "<" and start ">" if decorated is False.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: width = 6  => "------"
     """
     assert calculator.line(7, decorated=False) == "-------"
 
 
-def test_line_5():
+def test_line_decorated_with_small_width():
     """
-    Return an expression that subtracts b from a.
+    Test that line() returns empty string if decorated True but line width less than 2.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
+    Example: width = 1  => ""
     """
     assert calculator.line(1, decorated=True) == ""
 
 
 def test_display():
     """
-    Return an expression that subtracts b from a.
+    Test display subtraction.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
     assert calculator.display(5, -5, name="Burroughs", operation="subtraction", width=10) == "      BUR-9hs\n>-----------<\n|5 - -5 = 10|\n-------------"
 
 
 def test_display_add():
     """
-    Return an expression that subtracts b from a.
+    Test display addition.
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
     assert calculator.display(5, 7, name="Burroughs", operation="addition", width=10) == "     BUR-9hs\n>----------<\n|5 + 7 = 12|\n------------"
 
 
-def test_display_wrongwidth():
+def test_display_wrongwidth_minus():
     """
-    Return an expression that subtracts b from a.
+    Test display
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
     assert calculator.display(5, 7, name="Burroughs", operation="addition", width=-20) == "     BUR-9hs\n>----------<\n|5 + 7 = 12|\n------------"
 
 
-def test_display_wrongwidth2():
+def test_display_wrongwidth_zero():
     """
-    Return an expression that subtracts b from a.
+    Test display
 
-    Example: a = 3, b = 1 -> "3 - 1 = 2"
     """
     assert calculator.display(5, 7, name="Burroughs", operation="tere", width=0) == "ERROR"

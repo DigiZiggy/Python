@@ -8,7 +8,7 @@ def hello():
     The function should not return anything or do anything else except printing the specified message.
     :return: None
     """
-    a = "tere"
+    a = "Hello world!"
     print(a)
 #    print("Hello world!")
 

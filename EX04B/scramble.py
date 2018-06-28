@@ -1,4 +1,4 @@
-"""Scramble  words within sentences."""
+"""Scramble letters in words within sentences."""
 
 
 def scramble_sentence(sentence: str) -> str:
@@ -11,11 +11,11 @@ def scramble_sentence(sentence: str) -> str:
     if sentence == "":
         return ""
     words = sentence.split(" ")
-    tulemus = []
+    result = []
     for each_word in words:
-        tulemus.append(scramble_word(each_word))
-    string_tulemus = " ".join(tulemus)
-    return string_tulemus
+        result.append(scramble_word(each_word))
+    string_result = " ".join(result)
+    return string_result
 
 
 def scramble_word(word: str) -> str:
@@ -31,26 +31,28 @@ def scramble_word(word: str) -> str:
     """
     if word == "":
         return ""
-    a = ""
+    last_letter_symbol = ""
     if word[-1] in '.,;?!"':
-        a = word[-1]
+        last_letter_symbol = word[-1]
         word = word[0:-1]
     if len(word) <= 3:
-        return word + a
+        return word + last_letter_symbol
     if len(word) > 7:
-        return word + a
-    result = ""
-    sonas_on_ylakoma = "'" in word
-    if sonas_on_ylakoma:
-        ylakoma_index = word.find("'")
-        word = word[0:ylakoma_index] + word[ylakoma_index + 1:len(word)]
+        return word + last_letter_symbol
+    astrophe_in_word = "'" in word
+    if astrophe_in_word:
+        astrophe_index = word.find("'")
+        #taking the strophe out of the word before sorting alphabetically
+        word = word[0:astrophe_index] + word[astrophe_index + 1:len(word)]
     frstletter = word[0]
     lastletter = word[-1]
+    #letters to sort (first and last letter taken out)
     letters1 = list(word)[1:-1]
     letters1.sort(key=lambda s: s.lower())
-    result = list(str(frstletter) + "".join(letters1) + str(lastletter) + a)
-    if sonas_on_ylakoma:
-        result.insert(ylakoma_index, "'")
+    result = list(str(frstletter) + "".join(letters1) + str(lastletter) + last_letter_symbol)
+    #if astrophe was present, insert it back to the same index as it was before
+    if astrophe_in_word:
+        result.insert(astrophe_index, "'")
     result = "".join(result)
     return result
 
@@ -60,10 +62,3 @@ if __name__ == '__main__':
     print(scramble_sentence("The phenomenal power of the human mind."))  # -> The phenomenal peowr of the hamun mind.
     print(scramble_word("Mo'uSE!"))  # -> Mo'SuE!
     print(scramble_word("CoOol"))  # -> "CoOol"
-    print(scramble_word("MbaE!"))  # -> Mo'SuE!
-    print(scramble_word("M'baE!"))  # -> Mo'SuE!
-    print(scramble_word("Mb'aE!"))  # -> Mo'SuE!
-    print(scramble_word("Mba'E!"))  # -> Mo'SuE!
-    print(scramble_word("MbaE"))  # -> Mo'SuE!
-    print(scramble_word("M'baE"))  # -> Mo'SuE!
-    print(scramble_word("Mb'aE"))  # -> Mo'SuE!

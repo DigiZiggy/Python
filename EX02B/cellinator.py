@@ -3,8 +3,6 @@
 
 def get_cell_index(row, col, row_len):
     """
-    Return cell index for row, col and table width.
-
     Given the row and column indices and the number of columns in the table
     return cell index at the given location.
 
@@ -21,10 +19,8 @@ def get_cell_index(row, col, row_len):
 
 def get_row_and_col(cell_index, row_len):
     """
-    Return row, col for cell index and table width.
-
     Given the cell index and the number of columns in the table
-    return tuple with row and col indices.
+    return tuple with row and col indices of that cell.
 
     :param cell_index: cell index
     :param row_len: number of columns in the table
@@ -37,8 +33,6 @@ def get_row_and_col(cell_index, row_len):
 
 def get_row_len(row, col, cell_index):
     """
-    Return table width for row, col and cell index.
-
     Given the row and column indices and the cell index
     return the number of columns in the table.
 
@@ -51,11 +45,9 @@ def get_row_len(row, col, cell_index):
     :param cell_index: cell index
     :return: number of columns in the table
     """
-    if row == 0:
-        return -1
     row_len = (cell_index - col) / row
     if row_len.is_integer() and col < row_len:
-        return row_len
+        return int(row_len)
     else:
         return -1
 
@@ -72,3 +64,7 @@ if __name__ == '__main__':
     print(get_row_and_col(3, 5))  # (0, 3)
     print(get_row_and_col(20, 5))  # (4, 0)
     print(get_row_and_col(14, 5))  # (2, 4)
+
+    print(get_row_len(1, 3, 4))  # => -1
+    print(get_row_len(1, 0, 3))  # => 3
+    print(get_row_len(12, 0, 12))  # => 1

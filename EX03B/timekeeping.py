@@ -1,42 +1,45 @@
 """Converting time from one system to another."""
 
 
-def convert(kella_aeg, mitu_sec_minutis, uus_sec_minutis):
+def convert(current_time, secs_in_minute, new_secs_in_minute):
     """
-    Annan programmile sisse kellaja, ja ytlen mitu sekundit on minutis. Arvutan ka mitu sekundit kokku on.
+    User inputs current time, how many seconds are there in a minute of that given time,
+    and new amount of seconds in a minute. Finding new time.
 
-    :param kella_aeg: Ette antud kella aeg
-    :param mitu_sec_minutis: Mitu sekundit on selle aja-arvamise yhes minutis
-    :param uus_sec_minutis: Mitu sekundit on uue aja-arvamise yhes minutis
-    :return:
+    :param current_time: user input of time
+    :param secs_in_minute: current time system seconds in minute
+    :param new_secs_in_minute: new time system seconds in minute amount
+    :return: other function to round the time to proper format
     """
-    if kella_aeg == "00:00":
-        return kella_aeg
-    elif int(kella_aeg[-2:]) >= int(mitu_sec_minutis):
+    if current_time == "00:00":
+        return current_time
+    elif int(current_time[-2:]) >= int(secs_in_minute):
         return None
-    all_seconds = mitu_sec_minutis * int(kella_aeg[:2]) + int(kella_aeg[-2:])
-    MM = all_seconds // uus_sec_minutis
-    SS = all_seconds % uus_sec_minutis
-    return ymarda(MM, SS)
+    all_seconds = secs_in_minute * int(current_time[:2]) + int(current_time[-2:])
+    MM = all_seconds // new_secs_in_minute
+    SS = all_seconds % new_secs_in_minute
+    return rounding(MM, SS)
 
 
-def ymarda(minutid, sekundid):
+def rounding(minutes, seconds):
     """
-    Teisendan aja 6igele kujule.
+    Giving time a proper format.
 
-    :param minutid: kui on 10st v2iksem, peab 0 numbri ees olema siis -et v2ljastatud s6ne n2eks kellaja moodi v2lja
-    :param sekundid: teen kindlaks, et sekundid ymardatakse ja v2ljastatakse kahendkujul
-    :return:
+    :param minutes: check if smaller than 10
+    :param seconds: check if smaller than 10, round and output two first numbers of the value
+    :return: properly formatted time
     """
-    sekundid = int(round(sekundid))
-    if minutid < 10 and sekundid < 10:
-        return str(0) + str(minutid) + ":" + str(0) + str(int(str(sekundid)[:2]))
-    if minutid < 10:
-        return str(0) + str(minutid) + ":" + str(int(str(sekundid)[:2]))
-    if sekundid < 10:
-        return str(minutid) + ":" + str(0) + str(int(str(sekundid)[:2]))
+    seconds = int(round(seconds))
+    #if smaller than 10, but 0 infront of the number,
+    #else round and return two first numbers of the whole value of seconds
+    if minutes < 10 and seconds < 10:
+        return str(0) + str(minutes) + ":" + str(0) + str(int(str(seconds)[:2]))
+    if minutes < 10:
+        return str(0) + str(minutes) + ":" + str(int(str(seconds)[:2]))
+    if seconds < 10:
+        return str(minutes) + ":" + str(0) + str(int(str(seconds)[:2]))
     else:
-        return str(minutid) + ":" + str(int(str(sekundid)[:2]))
+        return str(minutes) + ":" + str(int(str(seconds)[:2]))
 
 
 if __name__ == '__main__':

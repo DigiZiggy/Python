@@ -6,7 +6,7 @@ import math
 
 def value_of_z(ex, x, y):
     """
-    Calculate the value of z with given x and y.
+    Calculate the value of z with given x and y with given mathematical expression.
 
     :param ex: exercise number
     :param x: number
@@ -14,13 +14,17 @@ def value_of_z(ex, x, y):
     :return: float
     """
     if ex == 1:
+        # Power to
         return(x ** y + y ** x)
     elif ex == 2:
+        # x divided with value minus y divided with value
         return(x / 5.6 - y / 6.5)
     elif ex == 3:
+        # Using square roots and logaritms
         return(x / 5 * (y ** 4) * math.log(5)) / (7 * math.sqrt(x ** 2 + y ** 2) + 1)
     else:
-        print("Sellist ülesanner ei ole!")
+        # if ex does not exist
+        print("This mathematical expression does not exict!")
         return None
 
 
